@@ -43,23 +43,23 @@
     <section>
         <h2>Contacto</h2>
         
-        <form name="contact" method="POST" class="formulario" data-netlify="true" netlify>
+        <form name="contact" type="hidden" method="POST" class="formulario" data-netlify="true">
             <fieldset>
                 <legend>Contactame llenando los siguientes datos</legend>
                 <div class="contenedor-campos">
                     <div class="campo">
                         <label>Nombre</label>
-                        <input class="input-text" type="text" placeholder="Tu Nombre">
+                        <input class="input-text" type="text" placeholder="Tu Nombre" value="contact" name="form-name">
                     </div>
                     
                     <div class="campo">
                         <label>Teléfono</label>
-                        <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        <input class="input-text" type="tel" placeholder="Tu Teléfono" value="contact" name="form-name">
                     </div>
                     
                     <div class="campo">
                         <label>Correo</label>
-                        <input class="input-text" type="email" placeholder="Tu email">
+                        <input class="input-text" type="email" placeholder="Tu email" value="contact" name="form-name">
                     </div>
                     
                     <div class="campo">
